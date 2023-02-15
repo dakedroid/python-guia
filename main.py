@@ -109,5 +109,5 @@ print(type(b))
 print(type(c))
 
 # Casting
-#x = int(1)
+# lo que escribio kevin
 
