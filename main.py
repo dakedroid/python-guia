@@ -109,5 +109,79 @@ print(type(b))
 print(type(c))
 
 # Casting
-# lo que escribio kevinnnnn
+# Integers
+x = int(1)
+y = int(2.8)
+z = int("3")
 
+# Floats
+x = float(1)
+y = float(2.8)
+z = float("3")
+w = float("4.2")
+
+# Strings
+x = str("s1")
+y = str(2)
+z = str(3.0)
+
+# Python Strings - las cadenas en python
+# estan rodeadas por comillas simples o
+# dobles
+print("Hola")
+print('Hola')
+a = "Adios"
+b = 'Adios'
+print(a)
+print(b)
+
+# Multiline String - Cadenas Multinea
+a = """El dia de hoy estamos todos
+reunidos en la clase de Ing. del 
+conocimiento el 15-feb-2023 10:51:27"""
+print(a)
+
+b = '''El dia de hoy estamos todos
+reunidos en la clase de Ing. del 
+conocimiento el 15-feb-2023 10:51:27'''
+print(b)
+
+# Las cadenas son arreglos - Strings are Arrays
+# Como muchos lenguajes de programación
+# python no tiene el tipo de dato caracter
+# Cada cadena es un arreglo de bytes.
+nombre = "Oswaldo Sanchez"
+print(nombre[0])
+print(nombre[1])
+print(nombre[2])
+print(nombre[3])
+print(nombre[4])
+print(nombre[5])
+print(nombre[6])
+
+# Looping Through a String. For Each
+# Recorrer atra ves de una cadena
+# para_cada letra en nombre:
+#   imprimir letra
+for letra in nombre:
+    print(letra)
+
+# Imprimir lenght o longitud de un string
+print(len(nombre))
+
+# Check String, o checar si
+# existe una cadena
+txt = "Las mejores cosas en la vida cuestan"
+print("vida" in txt)
+print("gratis" in txt)
+
+if "vida" in txt:
+    print("Si, vida esta presente.")
+else:
+    print("No esta presente")
+
+# Practica 3: Crear un texto que
+# diga "Somos los 10 mejores" y si el texto 10
+# esta dentro del string. se debe imprimir
+# el numero 10 convertido a int e imprimirlo
+# y si no decir que no se encontro.
