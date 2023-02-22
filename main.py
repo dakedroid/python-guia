@@ -185,3 +185,11 @@ else:
 # esta dentro del string. se debe imprimir
 # el numero 10 convertido a int e imprimirlo
 # y si no decir que no se encontro.
+txt = "Somos los 10 mejores"
+if "10" in txt:
+    numero = int("10")
+    print(numero)
+else:
+    print("No se encontro el 10")
+
+
