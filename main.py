@@ -192,4 +192,61 @@ if "10" in txt:
 else:
     print("No se encontro el 10")
 
+## Booleans
+## Los boleanos se representan con dos valores: True o False
+print(True)
+print(False)
+print(10 > 9)
+print(10 == 9)
+print(10 < 9)
 
+# Practica 4 crear variable a = 200 y
+# variable b = 33 y si b es mayor que a
+# imprimir que b y mayor que a
+# y si no imprimir que b no es mayor que a
+a = 200
+b = 33
+if b > a:
+    print('b=', b, ' es mayor que a=', a)
+else:
+    print('b=', b, ' no es mayor que a=', a)
+
+## Evaluar valores y variables
+print(bool("Hello"))
+print(bool(15))
+print(bool(True))
+print(bool(False))
+x = "Hello"
+y = 15
+print(bool(x))
+print(bool(y))
+print(bool(""))
+print(bool(0))
+print(bool(["Marcos", "Baez", "Oswaldo"]))
+print(bool([]))
+print(bool(()))
+print(bool({}))
+print(bool(None))
+
+
+class myclass():
+    def __len__(self):
+        return 0
+
+
+myobj = myclass()
+print(bool(myobj))
+
+
+# Funciones que retornan boleanos
+def miFuncion():
+    return True
+
+
+if miFuncion():
+    print("YES")
+else:
+    print("NO!")
+# Checar si x es instancia de int
+x = 200
+print(isinstance(x, int))
