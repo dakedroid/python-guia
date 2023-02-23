@@ -250,3 +250,24 @@ else:
 # Checar si x es instancia de int
 x = 200
 print(isinstance(x, int))
+
+# Operadores en python se dividen en:
+# Arithmetic operators
+# Assignment operators
+# Comparison operators
+# Logical operators
+# Identity operators
+# Membership operators
+# Bitwise operators
+
+# Ejemplo
+print(10 + 5)
+
+# Precedencia de Operadores
+print((6 + 2) - (6 + 3))
+
+print(100 + 5 * 3)
+
+print(5 + 4 - 7 + 3)
+
+
