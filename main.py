@@ -270,4 +270,62 @@ print(100 + 5 * 3)
 
 print(5 + 4 - 7 + 3)
 
+##Imprimir en pantalla utilizando
+# jerarquia de operadores
+# Crear una variable x = 110
+# Y una variable y = 9
+# Si x - 10 es igual a 100 y Y * 10 es igual a 90
+# Ó x  es != a 70
+# Imprimir x al exponente de 2 y dividir entre 2
+# y sino  imprimir x utilizando
+#  el operador de += 5
 
+
+# Listas en Python - permite valores duplicados
+listaNumeros = [10, 20, 30, 40, 50, 10]
+listaStrings = ["FELIX", "JAVIER", "MARCOS", "MARIA", "FELIX"]
+print(listaNumeros)
+print(listaStrings)
+print(listaNumeros[4])
+# Imprimir longitud de la lista
+print(len(listaNumeros))
+print(len(listaStrings))
+
+# Se pueden crear con multiples tipos de datos
+lista = ["abc", 34, True, 40, "male"]
+
+# imprimir tipo de dato de la lista
+print(type(listaNumeros))
+print(type(listaStrings))
+
+## Acceder al ultimo elemento
+print(listaNumeros[-1])
+print(listaStrings[-2])
+
+# Rango de indices.
+print(listaStrings[1:3])
+print(listaNumeros[0:2])
+
+print(listaNumeros[:4])
+print(listaStrings[4:])
+
+frutas = ["manzana",
+          "platano",
+          "cherry",
+          "naranja",
+          "kiwi",
+          "melon",
+          "mango"]
+if "manzana" in frutas:
+    print("Si esta 'manzana'")
+
+# Utilizando posiciones negativas imprimir
+# cherry, naranja , kiwi y melon sin que se imprima mango.
+# de la impresion resultante van a checar con condicion
+# Si existe mango, y debe imprimir que no se encontro.
+frutasFiltradas = frutas[-5:-1]
+print(frutasFiltradas)
+if "mango" in frutasFiltradas:
+    print("Se encontro")
+else:
+    print("No se encontro")
