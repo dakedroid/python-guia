@@ -329,3 +329,61 @@ if "mango" in frutasFiltradas:
     print("Se encontro")
 else:
     print("No se encontro")
+
+# Agregar y eliminar  elementos a la lista
+# append agrega al final
+frutas.append("Carambola")
+print(frutas)
+
+# insert agrega en una posicion especifica
+frutas.insert(3, "Sandia")
+print(frutas)
+
+# extend une la lista con otra lista diferente.
+verduras = ["zanahoria", "brocoli", "lechuga"]
+frutas.extend(verduras)
+
+print(frutas)
+
+# Tuplas - son inmutables.
+alumnos = ("lic. marcos", "doc. javier", "ing. oswaldo", "ing. felix")
+print(alumnos)
+
+# Sets - no permite valores duplicados
+alumnas = {"guadalupe", "marisol", "yuliza", "ariana"}
+alumnas.add("maria")
+alumnas.add("maria")
+alumnas.add("ana")
+alumnas.remove("ana")
+# alumnas.update() es como exends
+
+print(alumnas)
+
+if "guadalupe" in alumnas:
+    print("Se encontro guadalupe")
+else:
+    print("No se encontro")
+
+# Diccionarios - sirve para guardar clave - valor
+calificaciones = {
+    "Marcos": 100,
+    "Oswaldo": 80,
+    "Uriel": 70,
+    "Javier": 95,
+    "Felix": 0
+}
+
+carro = {
+    "marca": "Tesla",
+    "modelo": "X",
+    "anio": 2022,
+    "pasajeros": ["Kevin", "Marcos", "Felix"],
+    "tieneRefaccion": True,
+    "velocidades": ("1", "2", "3", "4", "R"),
+    "precio": 1000000
+}
+
+print(calificaciones)
+print(carro)
+
+print(calificaciones["Felix"])
